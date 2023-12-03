@@ -1,5 +1,6 @@
 .topnav a {
     flex: auto;
+    width: 33.33%;
     margin: auto;
     display: block;
     color: white;
