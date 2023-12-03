@@ -1,0 +1,35 @@
+Index: avaleht.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"et\">\r\n<head>\r\n    <link rel=\"icon\" href=\"assets/logo.png\">\r\n    <link rel=\"stylesheet\" href=\"avaleht.css\">\r\n    <meta charset=\"UTF-8\">\r\n    <title>Tehisintellekti mudelite tutvustus</title>\r\n</head>\r\n<body>\r\n<header>\r\n    <div class=\"container\">\r\n        <h1>Tehisintellekti mudelite tutvustus</h1>\r\n    </div>\r\n</header>\r\n    <div class=\"topnav\" id=\"topnav\">\r\n        <a href=\"avaleht.html\" class=\"active\">Avaleht</a>\r\n        <a href=\"esimeneVaheleht.html\">Lobisevad mudelid</a>\r\n        <a href=\"teineVaheleht.html\">Loominugulised mudelid</a>\r\n        <a href=\"javascript:void(0);\" class=\"hidden\" onclick=\"Navigate()\"></a>\r\n    </div>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/avaleht.html b/avaleht.html
+--- a/avaleht.html	(revision 3d77870921e395b6fbf4d7f1995d707c338f6f10)
++++ b/avaleht.html	(date 1701621545211)
+@@ -7,17 +7,17 @@
+     <title>Tehisintellekti mudelite tutvustus</title>
+ </head>
+ <body>
+-<header>
+-    <div class="container">
+-        <h1>Tehisintellekti mudelite tutvustus</h1>
+-    </div>
+-</header>
++    <header>
++        <div class="container">
++            <h1>Tehisintellekti mudelite tutvustus</h1>
++        </div>
++    </header>
+     <div class="topnav" id="topnav">
+         <a href="avaleht.html" class="active">Avaleht</a>
+         <a href="esimeneVaheleht.html">Lobisevad mudelid</a>
+         <a href="teineVaheleht.html">Loominugulised mudelid</a>
+         <a href="javascript:void(0);" class="hidden" onclick="Navigate()"></a>
+     </div>
+-
++    <div class="container"></div>
+ </body>
+ </html>
+\ No newline at end of file
