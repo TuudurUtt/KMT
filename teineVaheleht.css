@@ -52,24 +52,9 @@ h2 {
 p {
     font-size: 16px;
 }
-.chatgpt-version, .google-bard, .youchat {
-    font-weight: bold;
-}
-.feature-list {
-    margin: 20px 0;
-}
-ul {
-list-style-type: disc;
-margin-left: 20px;
-}
+
 a {
     color: #444654;
     text-decoration: underline;
 }
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 18px;
-    text-align: center;
-}
+
