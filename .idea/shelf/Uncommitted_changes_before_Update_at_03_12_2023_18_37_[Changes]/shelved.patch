@@ -1,0 +1,86 @@
+Index: avaleht.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"et\">\r\n<head>\r\n    <link rel=\"icon\" href=\"assets/logo.png\">\r\n    <link rel=\"stylesheet\" href=\"avaleht.css\">\r\n    <meta charset=\"UTF-8\">\r\n    <title>Tehisintellekti mudelite tutvustus</title>\r\n</head>\r\n<body>\r\n<header>\r\n    <div class=\"container\">\r\n        <h1>Tehisintellekti mudelite tutvustus</h1>\r\n    </div>\r\n</header>\r\n    <div class=\"topnav\" id=\"topnav\">\r\n        <a href=\"avaleht.html\" class=\"active\">Avaleht</a>\r\n        <a href=\"esimeneVaheleht.html\">Lobisevad mudelid</a>\r\n        <a href=\"teineVaheleht.html\">Loominugulised mudelid</a>\r\n        <a href=\"javascript:void(0);\" class=\"hidden\" onclick=\"Navigate()\"></a>\r\n    </div>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/avaleht.html b/avaleht.html
+--- a/avaleht.html	(revision 3d77870921e395b6fbf4d7f1995d707c338f6f10)
++++ b/avaleht.html	(date 1701619132456)
+@@ -7,17 +7,19 @@
+     <title>Tehisintellekti mudelite tutvustus</title>
+ </head>
+ <body>
+-<header>
+-    <div class="container">
+-        <h1>Tehisintellekti mudelite tutvustus</h1>
+-    </div>
+-</header>
++    <header>
++        <div class="container">
++            <h1>Tehisintellekti mudelite tutvustus</h1>
++        </div>
++    </header>
+     <div class="topnav" id="topnav">
+         <a href="avaleht.html" class="active">Avaleht</a>
+         <a href="esimeneVaheleht.html">Lobisevad mudelid</a>
+         <a href="teineVaheleht.html">Loominugulised mudelid</a>
+         <a href="javascript:void(0);" class="hidden" onclick="Navigate()"></a>
+     </div>
++    <div class="container">
+ 
++    </div>
+ </body>
+ </html>
+\ No newline at end of file
+Index: esimeneVaheleht.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"et\">\r\n<head>\r\n    <link rel=\"icon\" href=\"assets/logo.png\">\r\n    <link rel=\"stylesheet\" href=\"esimeneVaheleht.css\">\r\n    <meta charset=\"UTF-8\">\r\n    <title>ChatGPT, Google Bard ja YouChat</title>\r\n</head>\r\n<body><header>\r\n    <div class=\"container\">\r\n        <h1>ChatGPT, Google Bard ja YouChat</h1>\r\n    </div>\r\n</header>\r\n\r\n    <div class=\"topnav\" id=\"topnav\">\r\n        <a href=\"avaleht.html\">Avaleht</a>\r\n        <a href=\"esimeneVaheleht.html\" class=\"active\">Lobisevad mudelid</a>\r\n        <a href=\"teineVaheleht.html\">Loominugulised mudelid</a>\r\n        <a href=\"javascript:void(0);\" class=\"hidden\" onclick=\"Navigate()\"></a>\r\n    </div>\r\n    <div class=\"container\">\r\n        <h2>Mis on ChatGPT?</h2>\r\n        <p>ChatGPT on vestluskaaslane, mis põhineb GPT (Generative Pre-trained Transformer) tehnoloogial. See võimaldab loomulikku keelekäsitlemist ja võib olla kasulik paljudes rakendustes.</p>\r\n        <h2>ChatGPT 3.5</h2>\r\n            <li>Parandatud teksti genereerimine.</li>\r\n            <li>Võime vastata erinevatele päringutele.</li>\r\n            <li>Laialdane keeletoetus.</li>\r\n            <li>Lühiajaline mälu 8000 sõna.</li>\r\n\r\n        <h2>ChatGPT 4.0</h2>\r\n            <li>Edasijõudnud loomuliku keele mõistmine.</li>\r\n            <li>Kasutajasõbralikumad ja kohandatavad vestlusmudelid</li>\r\n            <li>Lühiajaline mälu 64000 sõna.</li>\r\n            <p>Lisateabe saamiseks külastage <a href=\"https://www.openai.com/\" target=\"_blank\">OpenAI veebisaiti</a>.</p>\r\n\r\n        \r\n        \r\n        <h2>Mis on Google Bard?</h2>\r\n        <p>Google Bard on vestlusrobot, mis kasutab Google'i arenenud tehisintellekti algoritme ja pakub intelligentset vestlusvõimet.</p>\r\n        <p>Lisateabe saamiseks külastage <a href=\"https://bard.google.com/\" target=\"_blank\">Google Bard veebisaiti</a>.</p>\r\n        \r\n        <h2>Mis on YouChat?</h2>\r\n        <p>YouChat on nutikas vestlusrobot, mis on loodud suhtlemiseks ja suhtluse parandamiseks veebipõhistes keskkondades.</p>\r\n        <p>Lisateabe saamiseks külastage <a href=\"https://you.com/\" target=\"_blank\">YouChat veebisaiti</a>.</p>\r\n        \r\n    </div>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/esimeneVaheleht.html b/esimeneVaheleht.html
+--- a/esimeneVaheleht.html	(revision 3d77870921e395b6fbf4d7f1995d707c338f6f10)
++++ b/esimeneVaheleht.html	(date 1701618758357)
+@@ -6,12 +6,12 @@
+     <meta charset="UTF-8">
+     <title>ChatGPT, Google Bard ja YouChat</title>
+ </head>
+-<body><header>
+-    <div class="container">
+-        <h1>ChatGPT, Google Bard ja YouChat</h1>
+-    </div>
+-</header>
+-
++<body>
++    <header>
++        <div class="container">
++            <h1>ChatGPT, Google Bard ja YouChat</h1>
++        </div>
++    </header>
+     <div class="topnav" id="topnav">
+         <a href="avaleht.html">Avaleht</a>
+         <a href="esimeneVaheleht.html" class="active">Lobisevad mudelid</a>
+Index: avaleht.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\r\n    font-family: Arial, sans-serif;\r\n    background-color: #202123;\r\n    color: #fff;\r\n}\r\nheader {\r\n    background-color: #444654;\r\n    color: #fff;\r\n    padding: 20px;\r\n    text-align: center;\r\n}\r\nh1 {\r\n    font-size: 32px;\r\n}\r\n.container {\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n    padding: 22px;\r\n    background-color: #343541;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n}\r\nh2 {\r\n    font-size: 24px;\r\n    color: #fff;\r\n}\r\np {\r\n    font-size: 16px;\r\n}\r\nul {\r\n    list-style-type: disc;\r\n    margin-left: 20px;\r\n}\r\na {\r\n    color: #444654;\r\n    text-decoration: underline;\r\n}\r\n.topnav a {\r\n    flex: auto;\r\n    width: 33.33%;\r\n    margin: auto;\r\n    display: block;\r\n    color: white;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    padding: 16px 16px;\r\n    font-size: 17px;\r\n}\r\n.topnav {\r\n    display: flex;\r\n    overflow: hidden;\r\n    background-color: #444654;\r\n}\r\n.topnav a:hover {\r\n    background-color: #343541;\r\n}\r\n.topnav a.active {\r\n    background-color: #10a37f;\r\n}\r\n.topnav a.hidden {\r\n    display: none;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/avaleht.css b/avaleht.css
+--- a/avaleht.css	(revision 3d77870921e395b6fbf4d7f1995d707c338f6f10)
++++ b/avaleht.css	(date 1701618841626)
+@@ -27,10 +27,6 @@
+ p {
+     font-size: 16px;
+ }
+-ul {
+-    list-style-type: disc;
+-    margin-left: 20px;
+-}
+ a {
+     color: #444654;
+     text-decoration: underline;
