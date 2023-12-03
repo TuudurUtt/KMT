@@ -4,7 +4,7 @@ body {
     color: #fff;
 }
 header {
-    background-color: #444654;
+    background-color: #202123;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -37,7 +37,6 @@ a {
 }
 .topnav a {
     flex: auto;
-    width: 33.33%;
     margin: auto;
     display: block;
     color: white;
