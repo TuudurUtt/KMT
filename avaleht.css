@@ -1,9 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #202123;
-    // background-image: ;
+    background-image: url("assets/taust1.png");
     background-size: cover;
-    background-position: center;
+    background-position: right;
     color: white;
 }
 header {
@@ -26,12 +26,17 @@ header {
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    line-height: 180%;
 }
 h1.container {
     box-shadow: inset 0 0 10px #202123;
 }
 div.container {
     box-shadow: 0 0 10px #202123;
+}
+.center {
+    display: flex;
+    justify-content: center;
 }
 .padding {
     padding: 20px;

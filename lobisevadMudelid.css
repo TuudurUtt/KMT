@@ -27,6 +27,7 @@ header {
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    line-height: 180%;
 }
 h1.container {
     box-shadow: inset 0 0 10px #202123;
