@@ -1,9 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #202123;
-    // background-image: ;
+    background-color: #092d49;
+    background-image: url("assets/taust2.png");
     background-size: cover;
-    background-position: center;
+    background-position: center 100px;
+    background-repeat: no-repeat;
     color: white;
 }
 header {

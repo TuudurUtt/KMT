@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #202123;
-    // background-image: ;
+    background-image: url("assets/taust3.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -49,6 +49,7 @@ p {
 a {
     color: #10a37f;
     text-decoration: none;
+
 }
 .topnav {
     background-color: #444654;
