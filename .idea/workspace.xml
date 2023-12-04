@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a226ed-b32d-4989-a500-a17f86abbb5b" name="Changes" comment="Project files (.idea)">
-      <change afterPath="$PROJECT_DIR$/assets/taust2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/taust3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lobisevadMudelid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lobisevadMudelid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loomingulisedMudelid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loomingulisedMudelid.html" afterDir="false" />
+    <list default="true" id="75a226ed-b32d-4989-a500-a17f86abbb5b" name="Changes" comment="Avalehe sisu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avaleht.css" beforeDir="false" afterPath="$PROJECT_DIR$/avaleht.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avaleht.html" beforeDir="false" afterPath="$PROJECT_DIR$/avaleht.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esimeneVaheleht.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/esimeneVaheleht.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teineVaheleht.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teineVaheleht.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +99,7 @@
       <workItem from="1701617132380" duration="3101000" />
       <workItem from="1701621615077" duration="112000" />
       <workItem from="1701621728681" duration="63000" />
-      <workItem from="1701621792916" duration="16646000" />
+      <workItem from="1701621792916" duration="22752000" />
     </task>
     <task id="LOCAL-00001" summary="Lisatud (tühjad) failid">
       <option name="closed" value="true" />
@@ -168,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701621859577</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Visuaalsed tweakid">
+      <option name="closed" value="true" />
+      <created>1701716908328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701716908328</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Avalehe sisu">
+      <option name="closed" value="true" />
+      <created>1701721600646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701721600646</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +201,9 @@
     <MESSAGE value="Prandasin topnavi center'imise" />
     <MESSAGE value="Avalehe header" />
     <MESSAGE value="Project files (.idea)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project files (.idea)" />
+    <MESSAGE value="Visuaalsed tweakid" />
+    <MESSAGE value="Avalehe sisu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avalehe sisu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
